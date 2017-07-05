@@ -1,17 +1,17 @@
-my_name = 'Ruben'
-my_age = 24 #seriously, it is.
-my_height = 180
-my_weight = 80
-my_eyes = 'Blue'
-my_teeth = 'Yellow'
-my_hair = 'Brown'
+name = 'Ruben'
+age = 24 #seriously, it is.
+height = 180
+weight = 80
+eyes = 'Blue'
+teeth = 'Yellow'
+hair = 'Brown'
 
-print("Let's talk about {}" .format(my_name))
-print("He's {} inches tall." .format(my_height))
-print("He's {} pounds heavy." .format(my_weight))
+print("Let's talk about {}" .format(name))
+print("He's {} inches tall." .format(height))
+print("He's {} pounds heavy." .format(weight))
 print("Actually, that's not too heavy.")
-print("He's got {} eyes and {} hair." .format(my_eyes, my_hair))
-print("His teeth are usually {} depending on the coffee" .format(my_teeth))
+print("He's got {} eyes and {} hair." .format(eyes, hair))
+print("His teeth are usually {} depending on the coffee" .format(teeth))
 
-print("If I add {}, {}, {} and {} I get {}" .format(my_age, my_height, my_weight,
-    my_age, + my_height + my_weight))
+print("If I add {}, {}, {} and {} I get {}" .format(age, height, weight,
+    age, + height + weight))
