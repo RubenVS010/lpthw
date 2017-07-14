@@ -8,7 +8,7 @@ print("Copying from %s to %s" % (from_file, to_file))
 in_file = open(from_file)
 indata = in_file.read()
 
-print("The input file is {} bynder long" .format(len(indata)))
+print("The input file is {} long" .format(len(indata)))
 
 print("Does the output file exist? {}" .format(exists(to_file)))
 print("Ready, hit RETURN to continue, CTRL-C to abort.")
